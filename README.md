@@ -3,7 +3,8 @@
 # Back end
 Ejecutar los comandos:
 - **git fetch origin with-server:with-server**
--- **git checkout with-server**
+- **git checkout with-server**
+- **npm install**
 - **npm run dev** o **npm start** Inicia el server
 
 # Front end 
