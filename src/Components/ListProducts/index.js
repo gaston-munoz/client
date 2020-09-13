@@ -4,13 +4,10 @@ import axios from 'axios';
 const { REACT_APP_BACK } = process.env;
 
 const ListProducts = () => {
-
     const [ products, setProducts ] = useState([]);
-    console.log('REACT', REACT_APP_BACK)
 
     const fetchData = async () => {
         const response = await axios(`${REACT_APP_BACK}/products`);
-        console.log('RESPONSE', response);
         setProducts(response.data);
     }
 

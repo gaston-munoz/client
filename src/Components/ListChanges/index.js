@@ -10,7 +10,6 @@ const ListChanges = () => {
 
     const fetchData = async () => {
         const response = await axios(`${REACT_APP_BACK}/products/projections`);
-        console.log('RESPONSE', response);
         setProjections(response.data);
     }
 
