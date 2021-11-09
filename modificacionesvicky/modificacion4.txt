@@ -1,0 +1,1 @@
+este archivo no debe tener el seguimiento de git
